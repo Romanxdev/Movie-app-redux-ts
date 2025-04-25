@@ -1,12 +1,36 @@
-# React + Vite
+# Movie App (React + Redux + TypeScript)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**WebApps – Webprogrammering med React**  
+**4. semester – Spring 2025**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Beskrivelse
 
-## Expanding the ESLint configuration
+Dette projekt er en SPA (Single Page Application) udviklet i React med brug af Redux Toolkit, RTK Query og TypeScript.  
+Projektet tager udgangspunkt i en tutorial udleveret af underviseren og er videreudviklet for at opfylde kravene til den obligatoriske opgave.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Følgende krav er opfyldt
+
+- Minimum fem egne komponenter er implementeret.
+- Der er oprettet og anvendt et fælles Redux Store til håndtering af global state.
+- RTK Query (Thunk middleware) anvendes til at hente app-data fra API'et.
+- Navigation mellem komponenter er implementeret med React Router ved brug af `Route` og `Link`.
+- TypeScript anvendes i projektet, herunder interfaces til typer og strukturering af data.
+- Et CSS-framework (Tailwind CSS) anvendes til styling af applikationen.
+
+---
+
+## Teknologier anvendt
+
+- React
+- TypeScript
+- Redux Toolkit
+- RTK Query
+- React Router
+- Tailwind CSS
+- JSON Server
+
+---
